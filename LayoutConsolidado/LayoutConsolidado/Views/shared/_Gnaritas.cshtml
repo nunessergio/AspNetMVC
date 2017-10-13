@@ -1,0 +1,51 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Titulo</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Gnaritas</a>
+            </div>
+
+
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    @Html.ActionLink("Index", "Index", "Home")
+                </li>
+                <li>
+                    @Html.ActionLink("Contatos", "Contatos", "Home")
+                </li>
+
+                <li>
+                    @Html.ActionLink("TesteJs", "TesteJs", "Home")
+                </li>
+            </ul>
+
+        </div>
+
+
+    </nav>
+    
+    <div class="container-fluid">
+        @RenderSection("breadcrumb",true)
+    </div>
+    <div class="container-fluid"> 
+        @RenderBody()
+    </div>
+
+    @RenderSection("Js", false)
+</body>
+</html>

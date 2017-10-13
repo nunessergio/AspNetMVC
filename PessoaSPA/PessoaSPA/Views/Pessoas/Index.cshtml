@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Listar</h2>
+
+<p>
+    <button type="button" data-acao="criar" class="btn btn-primary">Novo</button>
+</p>
+
+<div id="main"></div>
+
+<div id="telas"></div>
+
+
+
+@section scripts{
+    <script src="~/Scripts/Projeto/ControlaForms.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#main").load("@Url.Action("Listar", "Pessoas")");
+
+        });
+
+        function feedback(retorno) {
+            
+            if (retorno.resultado) {
+                $("#main").load("@Url.Action("Listar", "Pessoas")");
+
+
+                toastr.options = {
+                    "positionClass": "toast-top-center",
+                    "showDuration": "200",
+                    "hideDuration": "1000",
+                    "timeOut": "3000"
+                }
+
+
+                toastr['success'](retorno.mensagem);
+
+                $("#telas").empty();
+            }
+        }
+
+
+
+    </script>
+
+
+
+
+}

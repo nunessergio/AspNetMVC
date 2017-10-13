@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ModelDemo.Modelos.Pessoa>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Criar")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataNascimento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Peso)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Saldo)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataNascimento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Peso)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Saldo)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.cpf }) |
+            <button type="button" data-acao="visualizar" data-id="@item.cpf" class="btn btn-link">Visualizar</button>
+            @Html.ActionLink("Delete", "Delete", new { id=item.cpf })
+        </td>
+    </tr>
+}
+
+</table>
+
+<div id="detalhesDiv">
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $("button[data-acao='visualizar']").click(CarregarPagina);
+        });
+
+        function CarregarPagina() {
+            $("#detalhesDiv").load("@Url.Action("Visualizar", "Pessoa")" + "?cpf=" + $(this).data("id"));
+
+
+
+        }
+
+    </script>    
+
+
+}

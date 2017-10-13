@@ -1,0 +1,9 @@
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicosConcretos\bin\Debug\ModelDemo.ServicosConcretos.dll
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicosConcretos\bin\Debug\ModelDemo.ServicosConcretos.pdb
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicosConcretos\bin\Debug\ModelDemo.Modelos.dll
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicosConcretos\bin\Debug\ModelDemo.Servico.dll
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicosConcretos\bin\Debug\ModelDemo.Modelos.pdb
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicosConcretos\bin\Debug\ModelDemo.Servico.pdb
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicosConcretos\obj\Debug\ModelDemo.ServicosConcretos.csprojResolveAssemblyReference.cache
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicosConcretos\obj\Debug\ModelDemo.ServicosConcretos.dll
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicosConcretos\obj\Debug\ModelDemo.ServicosConcretos.pdb

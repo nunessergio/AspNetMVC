@@ -1,0 +1,61 @@
+﻿@model PessoaSPA.Models.Pessoa
+
+
+@using (Html.BeginForm("Atualizar", "Pessoas", FormMethod.Post, new { id = "formPessoas" }))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Modificar Pessoa</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Nome, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                
+                <button type="button" data-acao="salvar" class="btn btn-primary">Salvar</button>
+            </div>
+        </div>
+    </div>
+}
+
+@Scripts.Render("~/bundles/jqueryval")
+
+
+<script type="text/javascript">
+        $(document).ready(function () {
+            $("button[data-acao='salvar']").click(SalvarPessoa);
+
+        });
+
+        function SalvarPessoa() {
+            var dados = $("#formPessoas").serialize();
+            $.ajax({
+                type: "PUT",
+                url: '@Url.Action("Atualizar", "Pessoas")',
+                data: dados,
+                dataType: 'json',
+                success: exibirMensagens
+
+                });
+        }
+
+        function exibirMensagens(retorno) {
+            feedback(retorno);
+        }
+
+
+</script>
+
+
+
+

@@ -1,0 +1,45 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Criar</title>
+
+</head>
+<body>
+
+    <div class="form-horizontal"> 
+        <form method="post" action="/Pessoa/Criar">
+            <div class="form-group">
+                <label class="control-label">Nome</label>
+                <input type="text" name="Nome" />
+            </div>
+
+            <div class="form-group">
+                <label class="control-label">CPF</label>
+                <input type="text" name="cpf" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Data Nascimento</label>
+                <input type="datetime" name="DataNascimento" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Peso</label>
+                <input type="text" name="Peso" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Saldo</label>
+                <input type="text" name="Saldo" />
+            </div>
+
+            <input type="submit" value="Criar" class="btn btn-default" />
+        </form>
+    </div>
+</body>
+</html>
+

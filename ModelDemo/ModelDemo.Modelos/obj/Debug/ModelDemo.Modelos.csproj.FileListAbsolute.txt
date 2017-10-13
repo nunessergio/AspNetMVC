@@ -1,0 +1,5 @@
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.Modelos\bin\Debug\ModelDemo.Modelos.dll
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.Modelos\bin\Debug\ModelDemo.Modelos.pdb
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.Modelos\obj\Debug\ModelDemo.Modelos.csprojResolveAssemblyReference.cache
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.Modelos\obj\Debug\ModelDemo.Modelos.dll
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.Modelos\obj\Debug\ModelDemo.Modelos.pdb

@@ -1,0 +1,14 @@
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicoBanco\bin\Debug\ModelDemo.ServicoBanco.dll.config
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicoBanco\bin\Debug\ModelDemo.ServicoBanco.dll
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicoBanco\bin\Debug\ModelDemo.ServicoBanco.pdb
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicoBanco\bin\Debug\EntityFramework.dll
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicoBanco\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicoBanco\bin\Debug\ModelDemo.Modelos.dll
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicoBanco\bin\Debug\ModelDemo.Servico.dll
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicoBanco\bin\Debug\ModelDemo.Modelos.pdb
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicoBanco\bin\Debug\ModelDemo.Servico.pdb
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicoBanco\bin\Debug\EntityFramework.xml
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicoBanco\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicoBanco\obj\Debug\ModelDemo.ServicoBanco.csprojResolveAssemblyReference.cache
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicoBanco\obj\Debug\ModelDemo.ServicoBanco.dll
+C:\Users\sergio\Documents\Desenvolvimento\Treinamento\ModelDemo\ModelDemo.ServicoBanco\obj\Debug\ModelDemo.ServicoBanco.pdb

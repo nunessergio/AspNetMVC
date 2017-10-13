@@ -1,0 +1,29 @@
+﻿@model IEnumerable<PessoaSPA.Models.Pessoa>
+
+@{
+    ViewBag.Title = "Listar";
+}
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            <button type="button" data-acao="editar" data-id="@item.Id" class="btn btn-link">Editar</button>
+            <button type="button" data-acao="excluir" data-id="@item.Id" class="btn btn-link">Excluir</button>
+        </td>
+    </tr>
+}
+
+</table>
+
